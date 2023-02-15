@@ -1,0 +1,763 @@
+{
+    "motion_sequences": [
+        {
+            "timestamp": 0,
+            "poses": [
+                {
+                    "pose": {
+                        "position": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "heading": 0
+                    },
+                    "velocity": 0.2
+                },
+                {
+                    "pose": {
+                        "position": {
+                            "x": 10.0,
+                            "y": 10.0
+                        },
+                        "heading": 270.0
+                    },
+                    "velocity": 0.2
+                },
+                {
+                    "pose": {
+                        "position": {
+                            "x": -10.0,
+                            "y": 10.0
+                        },
+                        "heading": 90.0
+                    },
+                    "velocity": 0.2
+                }
+            ]
+        },
+        {
+            "timestamp": 5.0,
+            "poses": [
+                {
+                    "pose": {
+                        "position": {
+                            "x": 0,
+                            "y": 1.0
+                        },
+                        "heading": 0
+                    },
+                    "velocity": 0.2
+                },
+                {
+                    "pose": {
+                        "position": {
+                            "x": 9.0,
+                            "y": 10.0
+                        },
+                        "heading": 270.0
+                    },
+                    "velocity": 0.2
+                },
+                {
+                    "pose": {
+                        "position": {
+                            "x": -9.0,
+                            "y": 10.0
+                        },
+                        "heading": 90.0
+                    },
+                    "velocity": 0.2
+                }
+            ]
+        },
+        {
+            "timestamp": 10.0,
+            "poses": [
+                {
+                    "pose": {
+                        "position": {
+                            "x": 0,
+                            "y": 2.0
+                        },
+                        "heading": 0
+                    },
+                    "velocity": 0.2
+                },
+                {
+                    "pose": {
+                        "position": {
+                            "x": 8.0,
+                            "y": 10.0
+                        },
+                        "heading": 270.0
+                    },
+                    "velocity": 0.2
+                },
+                {
+                    "pose": {
+                        "position": {
+                            "x": -8.0,
+                            "y": 10.0
+                        },
+                        "heading": 90.0
+                    },
+                    "velocity": 0.2
+                }
+            ]
+        },
+        {
+            "timestamp": 15.0,
+            "poses": [
+                {
+                    "pose": {
+                        "position": {
+                            "x": 0,
+                            "y": 3.0
+                        },
+                        "heading": 0
+                    },
+                    "velocity": 0.2
+                },
+                {
+                    "pose": {
+                        "position": {
+                            "x": 7.0,
+                            "y": 10.0
+                        },
+                        "heading": 270.0
+                    },
+                    "velocity": 0.2
+                },
+                {
+                    "pose": {
+                        "position": {
+                            "x": -7.0,
+                            "y": 10.0
+                        },
+                        "heading": 90.0
+                    },
+                    "velocity": 0.2
+                }
+            ]
+        },
+        {
+            "timestamp": 20.0,
+            "poses": [
+                {
+                    "pose": {
+                        "position": {
+                            "x": 0,
+                            "y": 4.0
+                        },
+                        "heading": 0
+                    },
+                    "velocity": 0.2
+                },
+                {
+                    "pose": {
+                        "position": {
+                            "x": 6.0,
+                            "y": 10.0
+                        },
+                        "heading": 270.0
+                    },
+                    "velocity": 0.2
+                },
+                {
+                    "pose": {
+                        "position": {
+                            "x": -6.0,
+                            "y": 10.0
+                        },
+                        "heading": 90.0
+                    },
+                    "velocity": 0.2
+                }
+            ]
+        },
+        {
+            "timestamp": 25.0,
+            "poses": [
+                {
+                    "pose": {
+                        "position": {
+                            "x": 0,
+                            "y": 5.0
+                        },
+                        "heading": 0
+                    },
+                    "velocity": 0.2
+                },
+                {
+                    "pose": {
+                        "position": {
+                            "x": 5.0,
+                            "y": 10.04
+                        },
+                        "heading": 272.39
+                    },
+                    "velocity": 0.2
+                },
+                {
+                    "pose": {
+                        "position": {
+                            "x": -5.0,
+                            "y": 10.0
+                        },
+                        "heading": 90.0
+                    },
+                    "velocity": 0.2
+                }
+            ]
+        },
+        {
+            "timestamp": 30.0,
+            "poses": [
+                {
+                    "pose": {
+                        "position": {
+                            "x": 0,
+                            "y": 5.99
+                        },
+                        "heading": 0
+                    },
+                    "velocity": 0.2
+                },
+                {
+                    "pose": {
+                        "position": {
+                            "x": 4.0,
+                            "y": 10.08
+                        },
+                        "heading": 272.39
+                    },
+                    "velocity": 0.2
+                },
+                {
+                    "pose": {
+                        "position": {
+                            "x": -4.01,
+                            "y": 10.0
+                        },
+                        "heading": 90.0
+                    },
+                    "velocity": 0.2
+                }
+            ]
+        },
+        {
+            "timestamp": 35.0,
+            "poses": [
+                {
+                    "pose": {
+                        "position": {
+                            "x": 0,
+                            "y": 6.97
+                        },
+                        "heading": 0
+                    },
+                    "velocity": 0.2
+                },
+                {
+                    "pose": {
+                        "position": {
+                            "x": 3.01,
+                            "y": 10.18
+                        },
+                        "heading": 275.95
+                    },
+                    "velocity": 0.2
+                },
+                {
+                    "pose": {
+                        "position": {
+                            "x": -3.03,
+                            "y": 10.0
+                        },
+                        "heading": 90.0
+                    },
+                    "velocity": 0.2
+                }
+            ]
+        },
+        {
+            "timestamp": 40.0,
+            "poses": [
+                {
+                    "pose": {
+                        "position": {
+                            "x": 0,
+                            "y": 7.96
+                        },
+                        "heading": 0
+                    },
+                    "velocity": 0.2
+                },
+                {
+                    "pose": {
+                        "position": {
+                            "x": 2.02,
+                            "y": 10.28
+                        },
+                        "heading": 275.95
+                    },
+                    "velocity": 0.2
+                },
+                {
+                    "pose": {
+                        "position": {
+                            "x": -2.06,
+                            "y": 10.0
+                        },
+                        "heading": 90.0
+                    },
+                    "velocity": 0.19
+                }
+            ]
+        },
+        {
+            "timestamp": 45.0,
+            "poses": [
+                {
+                    "pose": {
+                        "position": {
+                            "x": 0,
+                            "y": 8.95
+                        },
+                        "heading": 0
+                    },
+                    "velocity": 0.2
+                },
+                {
+                    "pose": {
+                        "position": {
+                            "x": 1.03,
+                            "y": 10.38
+                        },
+                        "heading": 275.95
+                    },
+                    "velocity": 0.2
+                },
+                {
+                    "pose": {
+                        "position": {
+                            "x": -1.1,
+                            "y": 10.0
+                        },
+                        "heading": 90.0
+                    },
+                    "velocity": 0.19
+                }
+            ]
+        },
+        {
+            "timestamp": 50.0,
+            "poses": [
+                {
+                    "pose": {
+                        "position": {
+                            "x": 0,
+                            "y": 9.94
+                        },
+                        "heading": 0
+                    },
+                    "velocity": 0.2
+                },
+                {
+                    "pose": {
+                        "position": {
+                            "x": 0.04,
+                            "y": 10.48
+                        },
+                        "heading": 275.95
+                    },
+                    "velocity": 0.2
+                },
+                {
+                    "pose": {
+                        "position": {
+                            "x": -0.15,
+                            "y": 10.0
+                        },
+                        "heading": 90.0
+                    },
+                    "velocity": 0.19
+                }
+            ]
+        },
+        {
+            "timestamp": 55.0,
+            "poses": [
+                {
+                    "pose": {
+                        "position": {
+                            "x": 0,
+                            "y": 10.92
+                        },
+                        "heading": 0
+                    },
+                    "velocity": 0.2
+                },
+                {
+                    "pose": {
+                        "position": {
+                            "x": -0.94,
+                            "y": 10.36
+                        },
+                        "heading": 262.77
+                    },
+                    "velocity": 0.2
+                },
+                {
+                    "pose": {
+                        "position": {
+                            "x": 0.79,
+                            "y": 10.0
+                        },
+                        "heading": 90.0
+                    },
+                    "velocity": 0.19
+                }
+            ]
+        },
+        {
+            "timestamp": 60.0,
+            "poses": [
+                {
+                    "pose": {
+                        "position": {
+                            "x": 0,
+                            "y": 11.89
+                        },
+                        "heading": 0
+                    },
+                    "velocity": 0.19
+                },
+                {
+                    "pose": {
+                        "position": {
+                            "x": -1.92,
+                            "y": 10.24
+                        },
+                        "heading": 262.77
+                    },
+                    "velocity": 0.2
+                },
+                {
+                    "pose": {
+                        "position": {
+                            "x": 1.73,
+                            "y": 10.0
+                        },
+                        "heading": 90.0
+                    },
+                    "velocity": 0.19
+                }
+            ]
+        },
+        {
+            "timestamp": 65.0,
+            "poses": [
+                {
+                    "pose": {
+                        "position": {
+                            "x": 0,
+                            "y": 12.85
+                        },
+                        "heading": 0
+                    },
+                    "velocity": 0.19
+                },
+                {
+                    "pose": {
+                        "position": {
+                            "x": -2.92,
+                            "y": 10.24
+                        },
+                        "heading": 270.0
+                    },
+                    "velocity": 0.2
+                },
+                {
+                    "pose": {
+                        "position": {
+                            "x": 2.66,
+                            "y": 10.0
+                        },
+                        "heading": 90.0
+                    },
+                    "velocity": 0.19
+                }
+            ]
+        },
+        {
+            "timestamp": 70.0,
+            "poses": [
+                {
+                    "pose": {
+                        "position": {
+                            "x": 0,
+                            "y": 13.8
+                        },
+                        "heading": 0
+                    },
+                    "velocity": 0.19
+                },
+                {
+                    "pose": {
+                        "position": {
+                            "x": -3.92,
+                            "y": 10.24
+                        },
+                        "heading": 270.0
+                    },
+                    "velocity": 0.2
+                },
+                {
+                    "pose": {
+                        "position": {
+                            "x": 3.58,
+                            "y": 10.0
+                        },
+                        "heading": 90.0
+                    },
+                    "velocity": 0.18
+                }
+            ]
+        },
+        {
+            "timestamp": 75.0,
+            "poses": [
+                {
+                    "pose": {
+                        "position": {
+                            "x": 0,
+                            "y": 14.74
+                        },
+                        "heading": 0
+                    },
+                    "velocity": 0.19
+                },
+                {
+                    "pose": {
+                        "position": {
+                            "x": -4.92,
+                            "y": 10.24
+                        },
+                        "heading": 270.0
+                    },
+                    "velocity": 0.2
+                },
+                {
+                    "pose": {
+                        "position": {
+                            "x": 4.49,
+                            "y": 10.0
+                        },
+                        "heading": 90.0
+                    },
+                    "velocity": 0.18
+                }
+            ]
+        },
+        {
+            "timestamp": 80.0,
+            "poses": [
+                {
+                    "pose": {
+                        "position": {
+                            "x": 0,
+                            "y": 15.68
+                        },
+                        "heading": 0
+                    },
+                    "velocity": 0.19
+                },
+                {
+                    "pose": {
+                        "position": {
+                            "x": -5.92,
+                            "y": 10.24
+                        },
+                        "heading": 270.0
+                    },
+                    "velocity": 0.2
+                },
+                {
+                    "pose": {
+                        "position": {
+                            "x": 5.39,
+                            "y": 10.0
+                        },
+                        "heading": 90.0
+                    },
+                    "velocity": 0.18
+                }
+            ]
+        },
+        {
+            "timestamp": 85.0,
+            "poses": [
+                {
+                    "pose": {
+                        "position": {
+                            "x": 0,
+                            "y": 16.61
+                        },
+                        "heading": 0
+                    },
+                    "velocity": 0.19
+                },
+                {
+                    "pose": {
+                        "position": {
+                            "x": -6.92,
+                            "y": 10.24
+                        },
+                        "heading": 270.0
+                    },
+                    "velocity": 0.2
+                },
+                {
+                    "pose": {
+                        "position": {
+                            "x": 6.28,
+                            "y": 10.0
+                        },
+                        "heading": 90.0
+                    },
+                    "velocity": 0.18
+                }
+            ]
+        },
+        {
+            "timestamp": 90.0,
+            "poses": [
+                {
+                    "pose": {
+                        "position": {
+                            "x": 0,
+                            "y": 17.53
+                        },
+                        "heading": 0
+                    },
+                    "velocity": 0.18
+                },
+                {
+                    "pose": {
+                        "position": {
+                            "x": -7.92,
+                            "y": 10.24
+                        },
+                        "heading": 270.0
+                    },
+                    "velocity": 0.2
+                },
+                {
+                    "pose": {
+                        "position": {
+                            "x": 7.16,
+                            "y": 10.0
+                        },
+                        "heading": 90.0
+                    },
+                    "velocity": 0.18
+                }
+            ]
+        },
+        {
+            "timestamp": 95.0,
+            "poses": [
+                {
+                    "pose": {
+                        "position": {
+                            "x": 0,
+                            "y": 18.44
+                        },
+                        "heading": 0
+                    },
+                    "velocity": 0.18
+                },
+                {
+                    "pose": {
+                        "position": {
+                            "x": -8.92,
+                            "y": 10.24
+                        },
+                        "heading": 270.0
+                    },
+                    "velocity": 0.2
+                },
+                {
+                    "pose": {
+                        "position": {
+                            "x": 8.03,
+                            "y": 10.0
+                        },
+                        "heading": 90.0
+                    },
+                    "velocity": 0.17
+                }
+            ]
+        },
+        {
+            "timestamp": 100.0,
+            "poses": [
+                {
+                    "pose": {
+                        "position": {
+                            "x": 0,
+                            "y": 19.34
+                        },
+                        "heading": 0
+                    },
+                    "velocity": 0.18
+                },
+                {
+                    "pose": {
+                        "position": {
+                            "x": -9.92,
+                            "y": 10.24
+                        },
+                        "heading": 270.0
+                    },
+                    "velocity": 0.2
+                },
+                {
+                    "pose": {
+                        "position": {
+                            "x": 8.89,
+                            "y": 10.0
+                        },
+                        "heading": 90.0
+                    },
+                    "velocity": 0.17
+                }
+            ]
+        }
+    ],
+    "leeway": {
+        "heading": 200.0,
+        "velocity": 3.0
+    },
+    "obstacles": [
+        [
+            {
+                "x": 1.0,
+                "y": 9.0
+            },
+            {
+                "x": 1.0,
+                "y": 6.0
+            },
+            {
+                "x": 3.0,
+                "y": 5.0
+            },
+            {
+                "x": 5.0,
+                "y": 7.0
+            }
+        ]
+    ]
+}
