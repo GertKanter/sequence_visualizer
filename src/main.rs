@@ -40,13 +40,13 @@ struct Scene {
 }
 
 // ---------------------------------------------------------------------------------------
-fn plot_one_frame(mut scene: Scene, frame_index: i32, min_x: f32, min_y: f32, max_x: f32, max_y: f32) -> Result<(), &'static str> {
+fn plot_one_frame(mut scene: Scene, frame_index: i32, min_x: f32, min_y: f32, max_x: f32, max_y: f32, filetype: String) -> Result<(), &'static str> {
     if (scene.motion_sequences.len() as i32) == frame_index {
         return Ok(());
     }
     let mut canvas = Canvas::new();
     let mut idx = 0;
-    let colors = vec![["#00ff00", "#33ff33", "#88ff88", "#aaffaa", "#eeffee"], ["#ff0000", "#ff3333", "#ff8888", "#ffaaaa", "#ffeeee"], ["#0000ff", "#3333ff", "#8888ff", "#aaaaff", "#eeeeff"], ["#ffff00", "#ffff33", "#ffff88", "#ffffaa", "#ffffee"]];
+    let colors = vec![["#00ff00", "#33ff33", "#88ff88", "#aaffaa", "#eeffee"], ["#ff0000", "#ff3333", "#ff8888", "#ffaaaa", "#ffeeee"], ["#0000ff", "#3333ff", "#8888ff", "#aaaaff", "#eeeeff"], ["#ffff00", "#ffff33", "#ffff88", "#ffffaa", "#ffffee"], ["#ff00c5", "#ff57d9", "#ff7ae1", "#ffa4ea", "#ffd6f6"]];
     for obstacle in &scene.obstacles {
         let mut pts = Vec::<Vec::<f64>>::new();
         for point in obstacle {
@@ -152,14 +152,14 @@ fn plot_one_frame(mut scene: Scene, frame_index: i32, min_x: f32, min_y: f32, ma
         .add(&canvas).add(&text).add(&timestamp_text);
 
     // save figure
-    let filename = format!("result{}.svg", frame_index);
+    let filename = format!("result{:0>2}.{}", frame_index, filetype);
     println!("Writing file {}...", filename);
     plot.save(&filename)?;
-    return plot_one_frame(scene, frame_index + 1, min_x, min_y, max_x, max_y);
+    return plot_one_frame(scene, frame_index + 1, min_x, min_y, max_x, max_y, filetype);
     //Ok(())
 }
 
-fn plot_scene(mut scene: Scene) -> Result<(), &'static str> {
+fn plot_scene(mut scene: Scene, filetype: String) -> Result<(), &'static str> {
     // find min max
     let mut min_x = 0.0;
     let mut min_y = 0.0;
@@ -191,7 +191,7 @@ fn plot_scene(mut scene: Scene) -> Result<(), &'static str> {
     }
     println!("Scene bounds [{}, {}, {}, {}]", min_x, min_y, max_x, max_y);
 
-    return plot_one_frame(scene, 0, min_x, min_y, max_x, max_y);
+    return plot_one_frame(scene, 0, min_x, min_y, max_x, max_y, filetype);
 }
 
 fn get_scene_csv(filename: String) -> Scene {
@@ -270,8 +270,13 @@ struct Args {
     #[arg(short, long, default_value_t = String::from(""))]
     csv_file: String,
 
+    /// Data file in JSON format
     #[arg(short, long, default_value_t = String::from(""))]
     json_file: String,
+
+    /// Save output as PNG files
+    #[arg(short, long, default_value_t = false)]
+    output_png: bool
 }
 
 fn main() -> Result<(), &'static str> {
@@ -291,8 +296,12 @@ fn main() -> Result<(), &'static str> {
         println!("Parsing JSON file {}...", args.json_file);
         scene = get_scene_json(args.json_file);
     }
+    let mut filetype = String::from("svg");
+    if args.output_png {
+        filetype = String::from("png");
+    }
     println!("Plotting scene...");
-    let result = plot_scene(scene);
+    let result = plot_scene(scene, filetype);
     println!("Done!");
     result
 }

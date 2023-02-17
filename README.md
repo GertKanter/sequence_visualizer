@@ -4,9 +4,13 @@ This program generates frame-by-frame visualization of sequences. It was origina
 
 ## Example
 
-Example of one generated frame is shown below. [Here](https://raw.githubusercontent.com/GertKanter/sequence_visualizer/develop/samples/three.json) is the JSON that was used to generate it (this is frame 9).
+An example of one generated frame is shown below. [Here](https://raw.githubusercontent.com/GertKanter/sequence_visualizer/develop/samples/three.json) is the JSON that was used to generate it (this is frame 9).
 
 ![Example frame](./assets/example.svg)
+
+A sequence generated from [four](https://raw.githubusercontent.com/GertKanter/sequence_visualizer/develop/samples/four.json) sequences is shown below.
+
+![Example sequence](./assets/sequence.gif)
 
 ## How to use
 
@@ -26,7 +30,8 @@ Usage: sequence_visualizer [OPTIONS]
 
 Options:
   -c, --csv-file <CSV_FILE>    Data file in CSV format [default: ]
-  -j, --json-file <JSON_FILE>  [default: ]
+  -j, --json-file <JSON_FILE>  Data file in JSON format [default: ]
+  -o, --output-png             Save output as PNG files
   -h, --help                   Print help
   -V, --version                Print version
 ```
